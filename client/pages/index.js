@@ -16,12 +16,7 @@ const Home = ({ posts }) => {
 
   const [newsFeed, setNewsFeed] = useState([]);
 
-  // useEffect(() => {
-  //   // console.log("SOCKETIO ON JOIN", socket);
-  //   socket.on("receive-message", (newMessage) => {
-  //     alert(newMessage);
-  //   });
-  // }, []);
+ 
 
   useEffect(() => {
     socket.on("new-post", (newPost) => {
@@ -34,18 +29,18 @@ const Home = ({ posts }) => {
       <title>GETlinkup Social Media Platforms</title>
       <meta
         name="description"
-        content="A social network by developers for other web developers"
+        content="A social network for Connect, Share, and Unite with Your World!"
       />
       <meta
         property="og:description"
-        content="A social network by developers for other web developers"
+        content="A social network for Connect, Share, and Unite with Your World!"
       />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="GETlinkup" />
-      <meta property="og:url" content="http://merncamp.com" />
+      <meta property="og:url" content="https://getlinkup.onrender.com/" />
       <meta
         property="og:image:secure_url"
-        content="http://merncamp.com/images/default.jpg"
+        content="https://res.cloudinary.com/dgsgi8g9f/image/upload/v1686428428/logo_cd8blp.png"
       />
       <link rel="icon" href="https://res.cloudinary.com/dgsgi8g9f/image/upload/v1686428428/logo_cd8blp.png" />
     </Head>
@@ -59,13 +54,7 @@ const Home = ({ posts }) => {
       <ParallaxBG url="/images/default.jpg"  />
 
       <div className="container">
-        {/* <button
-          onClick={() => {
-            socket.emit("send-message", "This is ryan!!!");
-          }}
-        >
-          Send message
-        </button> */}
+        
         <div className="row pt-5">
           {collection.map((post) => (
             <div key={post._id} className="col-md-4">
