@@ -44,10 +44,10 @@ Feel free to explore the code and make any necessary modifications to suit your 
 ## Screenshots
 
 ### Homepage
-![Homepage](screenshots/Home page.png)
+![Homepage](screenshots/Home.png)
 
 ### News Feed
-![Admin Dashboard](screenshots/Screenshot 2023-06-11 203750.png)
+![Admin Dashboard](screenshots/2.png)
 
 ### User Profile
 ![User Profile](screenshots/profile.png)
