@@ -1,6 +1,6 @@
 # GETlinkup-social-media
 
-![Homepage](screenshots/Home page.png)
+![Homepage](screenshots/Home.png)
 
 This is my social media application, a platform built with Next.js, React.js, Node.js, Express, and MongoDB. It utilizes server-side rendering (SEO) to provide improved performance and search engine optimization.
 
