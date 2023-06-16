@@ -80,5 +80,6 @@ export async function getServerSideProps() {
     },
   };
 }
+const daa = await axios.get("https://getlinkup-server.onrender.com");
 
 export default Home;
