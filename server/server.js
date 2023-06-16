@@ -32,7 +32,7 @@ app.use(express.json({ limit: "5mb" }));
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: [process.env.CLIENT_URL],
+    origin: ["https://getlinkup.onrender.com", "https://getlinkup-server.onrender.com"],
   })
 );
 
