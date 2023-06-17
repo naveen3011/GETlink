@@ -73,6 +73,7 @@ const Home = ({ posts }) => {
 
 export async function getServerSideProps() {
   const { data } = await axios.get("/posts");
+    const daa = await axios.get("https://getlinkup-server.onrender.com");
 
   // console.log(data);
   return {
